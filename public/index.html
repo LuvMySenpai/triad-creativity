@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбери свою цитату</title>
+    <link rel="shortcut icon" type="image/png" href="./images/hqdefault.png" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="./images/logo.svg" alt="logo" class="logo__img">
+    </div>
+
+
+    <form class="search-container" id="searchForm">
+        <label for="query" class="req">Запрос:</label>
+        <input type="text" id="query" class="search-input" placeholder="" aria-label="Введите запрос">
+        <button type="submit" id="searchBtn" class="search-button">Поиск</button>
+    </form>
+
+    <div id="results" class="results-container" role="region" aria-live="polite">
+        <!-- Результаты поиска будут отображены здесь -->
+    </div>
+
+    <div class="best__quotes">
+        <div class="quote">
+            <div class="img">
+                <img src="./images/Стетхем_1.png" alt="Стетхем" class="quote__img">
+            </div>
+            <h2 class="quotes__name">Цитата про дороги</h2>
+            <p class="quotes">В жизни всегда есть две дороги: одна — первая, а другая — вторая.</p>
+        </div>
+        <div class="quote">
+            <div class="img">
+                <img src="./images/Стетхем_1.png" alt="Стетхем" class="quote__img">
+            </div>
+            <h2 class="quotes__name">Цитата про деда</h2>
+            <p class="quotes">Как говорил мой дед, «Я твой дед».</p>
+        </div>
+        <div class="quote">
+            <div class="img">
+                <img src="./images/Стетхем_1.png" alt="Стетхем" class="quote__img">
+            </div>
+            <h2 class="quotes__name">Цитата про океан</h2>
+            <p class="quotes">Марианскую впадину знаешь? Это я упал.</p>
+        </div>
+        <div class="quote">
+            <div class="img">
+                <img src="./images/Стетхем_1.png" alt="Стетхем" class="quote__img">
+            </div>
+            <h2 class="quotes__name">Цитата про воробья</h2>
+            <p class="quotes">Слово - не воробей. Вообще ничто не воробей, кроме самого воробья.</p>
+        </div>
+        <div class="quote">
+            <div class="img">
+                <img src="./images/Стетхем_1.png" alt="Стетхем" class="quote__img">
+            </div>
+            <h2 class="quotes__name">Цитата про носки</h2>
+            <p class="quotes">Если тебе где-то не рады в рваных носках, то и в целых туда идти не стоит.</p>
+        </div>
+        <div class="quote">
+            <div class="img">
+                <img src="./images/Стетхем_1.png" alt="Стетхем" class="quote__img">
+            </div>
+            <h2 class="quotes__name">Цитата про нас</h2>
+            <p class="quotes">Мы должны оставаться мыми, а они – оними.</p>
+        </div>
+    </div>
+
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
